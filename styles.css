@@ -1,0 +1,108 @@
+
+/* #region Body */
+body {
+    margin: 0;
+}
+/* #endregion */
+
+/* #region Hero Images */
+
+header {
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+}
+
+#home {
+    background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.3)), url(Images/cloudyhighwayheber2croppedoptimized.png);
+    background-position: bottom;
+    background-attachment: fixed;
+    
+}
+
+/* #endregion */
+
+/* #region Navigation */
+
+nav>ul {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3.65vw;
+
+    margin-top: 0;
+    padding-top: 10vh;
+
+}
+nav>ul>a{
+    text-decoration: none;
+    color: white;
+
+    border: solid black;
+    background-color: black;
+    border-radius: 2.5em;
+
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+nav>ul>a>li {
+    list-style: none;
+    font-family:'Comic Sans MS', Comic Sans, Cursive;
+}
+
+.title {
+    font-size: 5vw;
+    font-family: "Brush Script MT", cursive;
+    font-style: oblique;
+    text-align: center;
+    color: white;
+
+    border: solid black;
+    border-radius: 100%;
+    padding: 2%;
+
+
+    list-style: none;
+}
+
+#active {
+    border-color: white;
+}
+
+/* #endregion */
+
+/* #region Main */
+article{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+}
+article>figure>img{
+    width: 35vw;
+    height: auto;
+    border: black solid;
+}
+main>figcaption{
+    text-align: center;
+    padding-right: 37.5vw;
+    font-style: italic;
+    
+    font-size: 1vw;
+}
+article>p{
+    margin-top: 1vh;
+    font-size: 1.5vw;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+/* #endregion */
