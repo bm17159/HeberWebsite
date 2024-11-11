@@ -26,7 +26,7 @@ header {
 /* #endregion */
 
 /* #region Navigation */
-
+/* #region Desktop*/
 nav>ul {
     display: flex;
 
@@ -67,7 +67,7 @@ nav>ul>a>li {
 
     border: solid black;
     border-radius: 100%;
-    padding: 2%;
+    padding:1%;
 
 
     list-style: none;
@@ -76,10 +76,34 @@ nav>ul>a>li {
 #active {
     border-color: white;
 }
+/* #endregion */
+/* #region Mobile */
+@media screen and (max-width:500px) {
 
+    nav>ul{
+        flex-direction: column;
+    }
+
+    nav>ul>a{
+        margin: 0;
+        margin-top: 2vh;
+
+        font-size: 7vw;
+    }
+
+    .title {
+        margin-top: 2vh;
+        padding: 3%;
+
+        font-size: 10vw;
+    }
+
+}
+/* #endregion */
 /* #endregion */
 
 /* #region Main */
+/* #region Desktop */
 article{
     display: flex;
     margin-left: 10vw;
@@ -104,5 +128,38 @@ article>p{
     padding-top: 7vh;
     padding-bottom: 7vh;
 }
+/* #endregion */
+/* #region Mobile */
+@media screen and (max-width:500px) {
+
+    article{
+        margin-top: 5vh;
+
+    }
+
+    article>figure{
+        margin: 0;
+        padding: 0;
+    }
+    article>figure>img{
+        width:45vw;
+    }
+
+    main>figcaption{
+        padding-right: 40vw;
+
+        font-size: 2vw;
+    }
+    
+    article>p{
+        margin: 0;
+        padding: 0;
+        padding-left: 2vw;
+
+        font-size: 2.5vw;
+    }
+
+}
+/* #endregion */
 
 /* #endregion */
